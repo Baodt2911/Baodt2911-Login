@@ -1,1 +1,0 @@
-# hanagaki-takemechi.github.io
