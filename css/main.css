@@ -13,3 +13,6 @@
 .pagination a:hover:not(.active) {
     background-color: #ddd;
 }
+a {
+    font-size: 10px;
+}
