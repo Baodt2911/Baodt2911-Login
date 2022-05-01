@@ -1,0 +1,100 @@
+body{
+    background: url(images/bg.jpeg);
+    background-size: cover;
+    background-position-y:-100px ;
+}
+*{
+    font-size: 15px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#wrapper{
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+#form-login{
+    border-radius: 15px;
+    max-width: 300px;
+    background: rgba(0, 0, 0, 0.7);
+    flex-grow: 1;
+    padding: 30px 30px 40px;
+    box-shadow: 0px 0px 17px 2px rgba(255, 255, 255, 0.7);
+    
+}
+.form-heading{
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom:40px ;
+    
+}
+.form-group{
+    border: #fff 1px solid;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    display: flex;   
+    height: 30px;
+    border-radius: 10px;
+}
+.form-group:hover{
+  border: 1px solid #54a0ff;
+}
+.form-group .icon{
+    color: #fff;
+    margin-top: 6px;
+    margin-left: 2px;
+}
+.form-input{
+    background: transparent;
+    border: 0;
+    outline:0;
+    color: #f5f5f5;
+    flex-grow: 1;
+}
+.form-input::placeholder{
+    color: rgb(201, 201, 201);
+    padding-left: 2px;
+}
+.form-submit{
+    border-radius: 20px;
+    background: transparent;
+    border: 1 solid #f5f5f5;
+    color: #fff;
+    width: 100%;
+    text-transform: uppercase;
+    padding: 10px;
+    margin-top: 15px;
+}
+.form-submit:hover{
+    border: 1px solid #54a0ff;
+}
+#Register{
+    color: #fff;
+    font-size: 15px;
+    padding-top: 10px;
+    text-align: center;
+  
+}
+#Register a{
+    text-decoration: none;
+    color: rgb(186, 189, 189);
+    font-size: 15px;
+    
+}
+#Register a:hover{
+    color: #54a0ff;
+}
+#forgot{
+    text-align: center;
+    margin-top: -5px;
+}
+#forgot a{
+    text-decoration: none;
+    color: rgb(186, 189, 189);
+    font-size: 15px;  
+}
+#forgot a:hover{
+    color: #54a0ff;
+}
